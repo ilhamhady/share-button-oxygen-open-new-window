@@ -11,7 +11,7 @@
   transform: translateY(-3px);
 }
 
-/* Only need to add this class if you want to use Oxygen selector to overide link color */
+/* Only need to add this single class if you want to use Oxygen selector to overide link color */
 .social-share-button a {
   color: #ffffffcc; /* only add this */
   font-size: 14px;
