@@ -1,0 +1,21 @@
+/** Copy following code below to php/html block section **/
+
+<button class="social-share-button button-fb">
+  <a href="https://www.facebook.com" title="Share to Facebook" target="_blank" rel="noopener noreferrer" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL),'_blank','resizable,height=449,width=550'); return false;">Facebook</a>
+</button>
+
+<button class="social-share-button button-tweet">
+  <a href="https://twitter.com" target="_blank" title="Tweet to Twitter" rel="noopener noreferrer" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(document.URL) + '&text=' + encodeURIComponent(document.title),'_blank','resizable,height=449,width=550'); return false;">Twitter</a>
+</button>
+
+<button class="social-share-button button-pin">
+  <a href="http://pinterest.com" target="_blank" title="Pin it" rel="noopener noreferrer" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' + encodeURIComponent(document.title),'_blank','resizable,height=449,width=550'); return false;">Pinterest</a>
+</button>
+
+<button class="social-share-button button-linkedin">
+  <a href="http://www.linkedin.com" target="_blank" title="Share to LinkedIn" rel="noopener noreferrer" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title),'_blank','resizable,height=449,width=550'); return false;">LinkedIn</a>
+</button>
+
+<button class="social-share-button button-email">
+  <a href="mailto:?subject=&body=:%20" target="_blank" title="Email it" rel="noopener noreferrer" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' + encodeURIComponent(document.URL),'_blank','resizable,height=449,width=550'); return false;">Email</a>
+</button>
