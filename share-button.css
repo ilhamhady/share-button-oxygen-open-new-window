@@ -1,0 +1,67 @@
+/* Ignore these classes if you want to use oxygen selector */
+.social-share-button {
+  margin: 0 5px 7px 0;
+  padding: 0;
+  border-radius: 0;
+  border-style: none;
+  transition: 0.3s ease;
+}
+.social-share-button:hover {
+  box-shadow: 0 4px 7px -2px rgb(0 0 0 / 20%);
+  transform: translateY(-3px);
+}
+
+/* Only need to add this class if you want to use Oxygen selector to overide link color */
+.social-share-button a {
+  color: #ffffffcc; /* only add this */
+  font-size: 14px;
+  padding: 8px 15px;
+  display: inline-flex;
+}
+
+.social-share-button:hover a {
+  color: #ffffff;
+}
+.button-fb {
+  background-color: #3b5998;
+}
+.button-tweet {
+  background-color: #1da1f2;
+}
+.button-linkedin {
+  background-color: #0077b5;
+}
+.button-pin {
+	background-color: #bd081c;
+}
+.button-email {
+  background-color: #ea4335;
+}
+
+/* These classes to add related icons before the text links */
+.button-fb a:before {
+  font-family: dashicons;
+  content: "\f305";
+  margin-right: 5px;
+  margin-left: -3px;
+}
+.button-tweet a:before {
+  font-family: dashicons;
+  content: "\f301";
+  margin-right: 5px;
+}
+.button-linkedin a:before {
+  font-family: dashicons;
+  content: "\f18d";
+  margin-right: 5px;
+}
+.button-pin a:before {
+  font-family: dashicons;
+  content: "\f192";
+  margin-right: 5px;
+}
+.button-email a:before {
+  font-family: dashicons;
+  content: "\f465";
+  margin-right: 5px;
+}
