@@ -37,6 +37,9 @@
 .button-email {
   background-color: #ea4335;
 }
+.button-whatsapp {
+  background-color: #25d366;
+}
 
 /* These classes to add related icons before the text links */
 .button-fb a:before {
@@ -64,4 +67,10 @@
   font-family: dashicons;
   content: "\f465";
   margin-right: 5px;
+}
+.button-whatsapp a:before {
+  font-family: dashicons;
+  content: "\f19a";
+  margin-right: 5px;
+  margin-left: -3px;
 }
