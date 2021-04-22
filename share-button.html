@@ -19,3 +19,7 @@
 <button class="social-share-button button-email">
   <a href="mailto:?subject=&body=:%20" target="_blank" title="Email it" rel="noopener noreferrer" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' + encodeURIComponent(document.URL),'_blank','resizable,height=449,width=550'); return false;">Email</a>
 </button>
+
+<button class="social-share-button button-whatsapp">
+  <a href="https://api.whatsapp.com/send?text=" target="_blank" title="Kirim ke Whatsapp" rel="noopener noreferrer" onclick="window.open('https://api.whatsapp.com/send' + '?text=' + encodeURIComponent(document.title) + '%20' + encodeURIComponent(document.URL),'_blank','resizable,height=449,width=550'); return false;">Whatsapp</a>
+</button>
